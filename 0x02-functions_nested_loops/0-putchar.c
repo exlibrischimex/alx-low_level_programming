@@ -1,16 +1,16 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * main - Entry point
- * Description: program starts and ends here
- * Return: 0 on success
+ * main - entry point
+ * @void: no argument
+ * Return: 0
  */
 int main(void)
 {
-char text[9] = "Holberton";
-int i;
-for (i = 0; i < 9; i++)
+char ermias[] = "_putchar";
+int c;
+for (c = 0; c < 8; c++)
 {
-_putchar(text[i]);
+_putchar(ermias[c]);
 }
 _putchar('\n');
 
