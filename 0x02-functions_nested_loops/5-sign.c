@@ -6,7 +6,7 @@
  *@n: the int to print
  * Return: Always 0.
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 if (n > 0)
 {
@@ -22,7 +22,7 @@ return (0);
 
 else
 {
-_putchar ('_');
+_putchar ('-');
 return (-1);
 }
 
