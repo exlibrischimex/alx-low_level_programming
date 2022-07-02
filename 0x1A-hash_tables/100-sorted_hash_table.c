@@ -6,6 +6,7 @@
  * @size: size of the shash table
  * Return: the created shash table, or NULL if function fails
  */
+
 shash_table_t *shash_table_create(unsigned long int size)
 {
 	shash_table_t *table;
